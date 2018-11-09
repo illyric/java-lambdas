@@ -1,0 +1,16 @@
+greetingFn = () -> System.out.println("Hello world!");
+
+doubleFn = (int i) -> 2 * i;
+
+addFn = (int a, int b) -> a + b;
+
+divideFn = (int x, int y) -> {
+	if (y == 0)
+        throw new ArithmeticException("Enumerator can't be 0");
+	
+	return x / y;
+}
+
+stringLenFn = (String s) -> s.length();
+
+
